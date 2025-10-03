@@ -3,10 +3,13 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   app: {
+    baseURL: "/ChatbotPage/",
     head: {
       title: "法律助手第一版",
     },
   },
+
+  buildDir: "docs",
 
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
