@@ -1,6 +1,6 @@
 <template>
   <el-header
-    class="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700"
+    class="sticky top-0 z-50 backdrop-blur-md shadow-md shadow-gray-200 dark:shadow-gray-700"
     style="height: auto; padding: 12px 0"
   >
     <el-container class="px-4">
@@ -10,16 +10,14 @@
           <el-icon
             :size="28"
             color="white"
-            class="bg-blue-600 text-white p-1 rounded-full mr-2"
+            class="bg-[#2a9d8f] text-white p-1 rounded-full mr-2"
           >
             <Document />
           </el-icon>
           <div class="flex flex-col">
-            <span class="text-xl font-bold text-gray-900 dark:text-white"
-              >法智调</span
-            >
+            <span class="text-xl font-bold">法智调</span>
             <span
-              class="text-xs text-blue-600 bg-blue-50 dark:bg-blue-900/30 px-2 py-0.5 rounded-full self-start"
+              class="text-xs text-[#e9c46a] bg-[#287271]/30 px-2 py-0.5 rounded-full self-start"
               >智能法律调解助手</span
             >
           </div>

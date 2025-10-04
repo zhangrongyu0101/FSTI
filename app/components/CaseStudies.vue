@@ -1,5 +1,5 @@
 <template>
-  <section id="case-studies" class="py-20 bg-white dark:bg-gray-900">
+  <div class="py-16 px-4 bg-gradient-to-br from-[#2a9d8f] to-[#8ab17d]">
     <el-container>
       <div class="max-w-3xl mx-auto text-center mb-16">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">成功案例</h2>
@@ -82,7 +82,7 @@
         </el-card>
       </div>
     </el-container>
-  </section>
+  </div>
 </template>
 
 <script setup lang="ts">
