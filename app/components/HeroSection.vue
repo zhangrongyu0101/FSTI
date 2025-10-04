@@ -31,7 +31,7 @@
                 class="flex items-center space-x-1 hover:text-blue-600 dark:hover:text-blue-400 transition-colors cursor-pointer bg-white shadow-md rounded-full p-3"
               >
                 <el-icon :size="quickLink.iconSize">
-                  <img :src="quickLink.icon" alt="icon" />
+                  <el-image :src="quickLink.icon" alt="icon" lazy />
                 </el-icon>
                 <span>{{ quickLink.name }}</span>
               </div>

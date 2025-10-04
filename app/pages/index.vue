@@ -20,7 +20,7 @@
     <ChatWindow />
 
     <!-- 页脚组件 -->
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 

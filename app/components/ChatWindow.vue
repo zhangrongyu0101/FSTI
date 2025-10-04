@@ -88,6 +88,8 @@ interface ChatMessage {
   value: string;
   htmlContent: string;
 }
+
+const chatStarted = ref(false); // 记录是否已经开始输出聊天记录
 const chatContainer = ref<HTMLElement | null>(null);
 const displayedMessages = ref<ChatMessage[]>([]);
 const isAtBottom = ref(true);
@@ -572,8 +574,20 @@ onMounted(async () => {
   await nextTick();
   if (chatContainer.value) {
     chatContainer.value.addEventListener("scroll", handleScroll);
+
+    const intersectionObserver = new IntersectionObserver((entries) => {
+      // 如果 intersectionRatio 为 0，则目标在视野外，
+      if (!entries[0]) return;
+      if (entries[0].intersectionRatio <= 0) return;
+
+      if (!chatStarted.value) {
+        initChat();
+        chatStarted.value = true;
+      }
+    });
+
+    intersectionObserver.observe(chatContainer.value);
   }
-  initChat();
 });
 
 // 组件卸载时移除事件监听器
