@@ -40,12 +40,12 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Generate static files
-        run: NUXT_APP_BASE_URL=/ChatbotPage/ pnpm generate
+        run: NUXT_APP_BASE_URL=/ChatbotPage/ npx nuxt build --preset github_pages
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./.output/public
 
   deploy:
     environment:
