@@ -40,7 +40,10 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Generate static files
-        run: NUXT_APP_BASE_URL=/ChatbotPage/ pnpm generate --preset github_pages
+        run: |
+          NUXT_APP_BASE_URL=/ChatbotPage/ pnpm build --preset github_pages
+          # 添加 .nojekyll 以绕过 Jekyll（防止忽略 _nuxt 等目录）
+          touch .output/public/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
