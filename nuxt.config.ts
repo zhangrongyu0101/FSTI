@@ -13,6 +13,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@element-plus/nuxt"],
 
+  ssr: false, // 尝试修复静态资源加载不正常的问题
+
   css: ["~/assets/css/main.css"],
   vite: {
     plugins: [tailwindcss()],
