@@ -61,17 +61,17 @@
 const quickLinks = ref([
   {
     name: "Code",
-    icon: "/icons/icon-github.svg",
+    icon: "~/icons/icon-github.svg",
     iconSize: 24,
   },
   {
     name: "model",
-    icon: "/icons/icon-huggingface.svg",
+    icon: "~/icons/icon-huggingface.svg",
     iconSize: 24,
   },
   {
     name: "Paper",
-    icon: "/icons/icon-paper.svg",
+    icon: "~/icons/icon-paper.svg",
     iconSize: 24,
   },
 ]);

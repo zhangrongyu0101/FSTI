@@ -81,7 +81,7 @@
 
           <el-image
             class="w-[90%] size-auto mx-auto mt-12"
-            src="/Comparison_of_Models.png"
+            src="~/Comparison_of_Models.png"
             alt="Comparison of Models"
             lazy
           />
@@ -96,11 +96,3 @@
     </el-container>
   </div>
 </template>
-
-<script setup lang="ts">
-import { Clock, ChatDotRound } from "@element-plus/icons-vue";
-</script>
-
-<style scoped>
-/* Element Plus 项目概述样式 */
-</style>
