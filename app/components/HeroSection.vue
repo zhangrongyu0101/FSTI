@@ -39,7 +39,12 @@
           </div>
         </div>
 
-        <el-image src="/main.jpg" alt="main" class="w-[90%] h-auto" lazy />
+        <el-image
+          src="/ChatbotPage/main.jpg"
+          alt="main"
+          class="w-[90%] h-auto"
+          lazy
+        />
         <p class="text-left max-w-[90%] text-pretty">
           <strong
             >Overview of the data synthesis and model training pipeline.</strong
@@ -61,17 +66,17 @@
 const quickLinks = ref([
   {
     name: "Code",
-    icon: "/icons/icon-github.svg",
+    icon: "/ChatbotPage/icons/icon-github.svg",
     iconSize: 24,
   },
   {
     name: "model",
-    icon: "/icons/icon-huggingface.svg",
+    icon: "/ChatbotPage/icons/icon-huggingface.svg",
     iconSize: 24,
   },
   {
     name: "Paper",
-    icon: "/icons/icon-paper.svg",
+    icon: "/ChatbotPage/icons/icon-paper.svg",
     iconSize: 24,
   },
 ]);
