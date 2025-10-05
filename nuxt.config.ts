@@ -2,8 +2,17 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      baseURL: "/ChatbotPage/",
+    },
+    app: {
+      baseURL: "/ChatbotPage/",
+    },
+  },
+
   app: {
-    baseURL: "/ChatbotPage/",
+    // baseURL: "/ChatbotPage/",
     head: {
       title: "法律助手第三版",
     },
