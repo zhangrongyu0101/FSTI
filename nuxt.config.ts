@@ -9,10 +9,6 @@ export default defineNuxtConfig({
     },
   },
 
-  dir: {
-    public: "/ChatbotPage/public",
-  },
-
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ["@element-plus/nuxt"],
