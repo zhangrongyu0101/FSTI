@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/ChatbotPage/",
     head: {
-      title: "法律助手第二版",
+      title: "法律助手第三版",
     },
   },
 

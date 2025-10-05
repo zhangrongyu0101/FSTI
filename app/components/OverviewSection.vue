@@ -4,7 +4,7 @@
       <el-main
         class="grid lg:grid-cols-2 gap-12 md:grid-cols-1 sm:grid-cols-1 items-center"
       >
-        <el-card class="mb-12">
+        <el-card class="mb-12 w-[90%] mx-auto">
           <p>
             Large Language Models (LLMs) like the GPT and LLaMA series have
             revolutionized natural language processing, excelling as
@@ -81,7 +81,7 @@
 
           <el-image
             class="w-[90%] size-auto mx-auto mt-12"
-            src="~/Comparison_of_Models.png"
+            src="/Comparison_of_Models.png"
             alt="Comparison of Models"
             lazy
           />

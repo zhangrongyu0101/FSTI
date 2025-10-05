@@ -5,19 +5,19 @@
         class="flex flex-col justify-around items-center space-y-6 mx-auto py-4"
       >
         <h2
-          class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white leading-tight"
+          class="text-4xl text-center md:text-5xl font-bold text-gray-900 dark:text-white leading-tight"
         >
-          智能法律调解，
-          <span class="text-blue-600 dark:text-blue-400">让纠纷解决更高效</span>
+          <span class="text-blue-600 dark:text-blue-400"
+            >From Simulation to Interaction:</span
+          >
+          Teaching LLM to Lead Conversations via Multi-Agent Distillation
         </h2>
         <div
           class="w-fit max-w-6xl text-center text-2xl text-gray-600 dark:text-gray-300 space-y-2"
         >
-          <p class="font-black text-blue-500">
-            author1, author2 ,author3, author4
-          </p>
-          <p>1First University, 2Second University, 3Third University,</p>
-          <p class="font-light text-lg">Corresponding Author</p>
+          <p class="font-black text-blue-500">Double-blind review</p>
+          <!-- <p>1First University, 2Second University, 3Third University,</p> -->
+          <!-- <p class="font-light text-lg">Corresponding Author</p> -->
         </div>
         <div class="flex items-center space-x-4 pt-4">
           <div class="flex items-center space-x-4">
@@ -61,17 +61,17 @@
 const quickLinks = ref([
   {
     name: "Code",
-    icon: "~/icons/icon-github.svg",
+    icon: "/icons/icon-github.svg",
     iconSize: 24,
   },
   {
     name: "model",
-    icon: "~/icons/icon-huggingface.svg",
+    icon: "/icons/icon-huggingface.svg",
     iconSize: 24,
   },
   {
     name: "Paper",
-    icon: "~/icons/icon-paper.svg",
+    icon: "/icons/icon-paper.svg",
     iconSize: 24,
   },
 ]);
