@@ -81,7 +81,7 @@
 
           <el-image
             class="w-[90%] size-auto mx-auto mt-12"
-            src="/Comparison_of_Models.png"
+            src="/ChatbotPage/Comparison_of_Models.png"
             alt="Comparison of Models"
             lazy
           />
