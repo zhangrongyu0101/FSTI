@@ -66,18 +66,13 @@
 <script setup lang="ts">
 const quickLinks = ref([
   {
-    name: "Code",
+    name: "Code (Coming soon)",
     icon: "/FSTI/icons/icon-github.svg",
     iconSize: 24,
   },
   {
-    name: "model",
+    name: "Model (Coming soon)",
     icon: "/FSTI/icons/icon-huggingface.svg",
-    iconSize: 24,
-  },
-  {
-    name: "Paper",
-    icon: "/FSTI/icons/icon-paper.svg",
     iconSize: 24,
   },
 ]);
