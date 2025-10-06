@@ -3,9 +3,9 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   app: {
-    baseURL: "/ChatbotPage/",
+    baseURL: "/FSTI/",
     head: {
-      title: "法律助手第三版",
+      title: "FSTI",
     },
   },
 
