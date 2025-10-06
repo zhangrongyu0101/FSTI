@@ -25,7 +25,7 @@
           <div class="grid grid-cols-2 grid-rows-2 items-center gap-4 my-8">
             <el-image
               ref="Fig1"
-              src="/ChatbotPage/Person and Scenario_1.png"
+              src="/FSTI/Person and Scenario_1.png"
               alt="Person and Scenario 1"
               lazy
               @click="handleFigClick(1)"
@@ -40,7 +40,7 @@
             </p>
             <el-image
               ref="Fig2"
-              src="/ChatbotPage/Person and Scenario_2.png"
+              src="/FSTI/Person and Scenario_2.png"
               alt="Person and Scenario 2"
               lazy
               @click="handleFigClick(2)"

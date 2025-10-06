@@ -56,7 +56,7 @@
               >
             </p>
             <el-image
-              src="/ChatbotPage/Comparison_of_Dataset.png"
+              src="/FSTI/Comparison_of_Dataset.png"
               alt="Comparison of Dataset"
               class="w-[90%] size-auto mx-auto my-12"
               lazy
@@ -81,7 +81,7 @@
 
           <el-image
             class="w-[90%] size-auto mx-auto mt-12"
-            src="/ChatbotPage/Comparison_of_Models.png"
+            src="/FSTI/Comparison_of_Models.png"
             alt="Comparison of Models"
             lazy
           />

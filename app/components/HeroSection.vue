@@ -40,7 +40,7 @@
         </div>
 
         <el-image
-          src="/ChatbotPage/main.jpg"
+          src="/FSTI/main.jpg"
           alt="main"
           class="w-[90%] h-auto"
           lazy
@@ -66,17 +66,17 @@
 const quickLinks = ref([
   {
     name: "Code",
-    icon: "/ChatbotPage/icons/icon-github.svg",
+    icon: "/FSTI/icons/icon-github.svg",
     iconSize: 24,
   },
   {
     name: "model",
-    icon: "/ChatbotPage/icons/icon-huggingface.svg",
+    icon: "/FSTI/icons/icon-huggingface.svg",
     iconSize: 24,
   },
   {
     name: "Paper",
-    icon: "/ChatbotPage/icons/icon-paper.svg",
+    icon: "/FSTI/icons/icon-paper.svg",
     iconSize: 24,
   },
 ]);
