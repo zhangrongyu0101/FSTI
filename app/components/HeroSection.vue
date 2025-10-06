@@ -24,8 +24,9 @@
             <NuxtLink
               v-for="(quickLink, idx) in quickLinks"
               :key="idx"
-              to="https://github.com"
-              target="_blank"
+              to="#"
+              @click.prevent
+              title="Coming soon"
             >
               <div
                 class="flex items-center space-x-1 hover:text-blue-600 dark:hover:text-blue-400 transition-colors cursor-pointer bg-white shadow-md rounded-full p-3"
