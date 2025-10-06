@@ -41,7 +41,7 @@
         </div>
 
         <el-image
-          src="/FSTI/main.jpg"
+          src="/FSTI/main.png"
           alt="main"
           class="w-[90%] h-auto"
           lazy
